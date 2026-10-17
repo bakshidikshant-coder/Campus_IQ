@@ -1,0 +1,8 @@
+{
+  "name": "campusiq-backend",
+  "version": "1.0.0",
+  "description": "CampusIQ Placement Intelligence - Node.js + SQLite backend (zero dependencies)",
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": { "start": "node server.js" }
+}
