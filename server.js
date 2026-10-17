@@ -11,7 +11,7 @@ const crypto = require('node:crypto');
 const { DatabaseSync } = require('node:sqlite');
 
 const PORT = Number(process.env.PORT) || 3000;
-const DB_FILE = process.env.DB_FILE || path.join(__dirname, 'data', 'campusiq.db');
+const DB_FILE = process.env.DB_FILE || '/tmp/campusiq.db';
 const API_KEY = process.env.API_KEY || ''; // optional: if set, all /api calls need header x-api-key
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
